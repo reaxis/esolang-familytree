@@ -1,6 +1,5 @@
 digraph esolangs {
-	center = true;
-
+	
 // DATA FROM ESOLANGS.ORG
 // ALSO CHECK EVERYTHING WITH CAT'S EYE TECHNOLOGIES
 
@@ -28,41 +27,51 @@ digraph esolangs {
 	zerox29A -> zerox29C;
 
 // 123: done
-	asdf -> 123;
+	onetwothree [label="123"];
+	asdf -> onetwothree;
 
 // 1337: done
-	LazyK -> 1337;
+	leet [label="1337"];
+	LazyK -> leet;
 
 // 1L: done
-	2L -> 1L;
-	1L -> 1L_a;
-	1L -> 1L_AOI;
-	1L -> Black;
+	oneL [label="1L"];
+	oneL_a [label="1L_a"];
+	oneL_AOI [label="1L_AOI"];
+	twoL -> oneL;
+	oneL -> oneL_a;
+	oneL -> oneL_AOI;
+	oneL -> Black;
 	BackFlip -> Black;
-	1L -> Wunnel;
+	oneL -> Wunnel;
 
 // 2050706: done
-	C -> 2050706;
+	two050706 [label="2050706"];
+	C -> two050706;
 
 // 2-ill: done
-	2ill [label="2-ill"];
-	2L -> 2ill;
+	twoill [label="2-ill"];
+	twoL -> twoill;
 
-// 2iota:
-	betaJulietandPortia -> 2iota;
+// 2iota: done
+	twoiota [label="2iota"];
+	betaJulietandPortia -> twoiota;
 
 // 2L: done
-	PATH -> 2L;
-	brainfuck -> 2L;
-	2L -> 2ill;
-	2L -> 1L;
+	twoL [label="2L"];
+	PATH -> twoL;
+	brainfuck -> twoL;
+	twoL -> twoill;
+	twoL -> oneL;
 
 // 3D: done
-	Befunge93 -> 3D;
-	3D -> Suzy;
+	threeD [label="3D"];
+	Befunge93 -> threeD;
+	threeD -> Suzy;
 
 // 3switchBF: done
-	brainfuck -> 3switchBF;
+	threeswitchBF [label="3switchBF"];
+	brainfuck -> threeswitchBF;
 
 // :≠: done
 	Unassignable [label=":≠"];
@@ -93,11 +102,11 @@ digraph esolangs {
 	brainfuck -> Agony;
 
 // Aheui: done
-	Aheui [label="아희"];
+	Aheui [label="아희 (Aheui)"];
 	Befunge93 -> Aheui;
 
 // ALAGUF: done
-	Funge -> ALAGUF;
+	Befunge93 -> ALAGUF;
 
 // ALPACA: done
 	RUBE -> REDGREEN -> ALPACA;
@@ -109,6 +118,9 @@ digraph esolangs {
 
 // Amelia: done
 	Iris -> Amelia;
+
+// Ans: done
+	Lisp -> Ans;
 
 // Arbol: done
 	Unlambda -> Arbol;
@@ -122,7 +134,7 @@ digraph esolangs {
 	Beturing -> Archway;
 	Archway -> Archway2;
 	brainfuck -> Archway;
-	2L -> Archway2;
+	twoL -> Archway2;
 
 // Alarm Clock Radio: done
 	AlarmClockRadio [label="Alarm Clock Radio"];
@@ -135,8 +147,32 @@ digraph esolangs {
 // axo: done
 	Befunge93 -> axo;
 
+// BackFlip: done
+	BackFlip -> ABCDXYZ;
+	Flip -> BackFlip;
 
+// Backtracking INTERCAL: done
+	BacktrackingINTERCAL [label="Backtracking INTERCAL"];
+	INTERCAL -> BacktrackingINTERCAL;
 
+// Bag: done
+	Fractran -> Bag;
+
+// Barely: done
+	brainfuck -> Barely;
+
+// BCDFuck: done
+	brainfuck -> BCDFuck;
+
+// BDAMD: done
+	Befunge93 -> BDAMD;
+
+// Befalse: done
+	FALSE -> Befalse;
+	SNUSP -> Befalse;
+
+// Befreak: done
+	Befunge93 -> Befreak;
 
 // Befunge-93: done
 	Befunge93 [label="Befunge-93"];
@@ -151,28 +187,77 @@ digraph esolangs {
 	Befunge98 [label="Befunge-98"];
 	Befunge93 -> Befunge98;
 
-// beta-Juliet and Portia:
+// BestFriends.js: done
+	BestFriends [label="BestFriends.js"];
+	brainfuck -> BestFriends;
+
+// beta-Juliet and Portia: done
 	betaJulietandPortia [label="beta-Juliet and Portia"];
-	betaJulietandPortia -> 2iota;
+	betaJulietandPortia -> twoiota;
 
 // Beturing: done
 	Befunge93 -> Beturing;
 
-// Blub: done
-	brainfuck -> Blub;
+// BFEnet: done
+	brainfuck -> BFEnet;
+
+// BFI: done
+	brainfuck -> BFI;
+	GASOIL -> BFI;
+
+// BFM: done
+	brainfuck -> BFM;
+
+// BF-PDA: done
+	BFPDA [label="BF-PDA"];
+	brainfuck -> BFPDA;
+
+// BF-SC: done
+	BFSC [labe="BF-SC"];
+	BFPDA -> BFSC;
+	brainfuck -> BFSC;
+
+// Binaryfuck: done
+	brainfuck -> Binaryfuck;
+
+// BIO: done
+	ABCDXYZ -> BIO;
+
+// BitChanger: done
+	brainfuck -> BitChanger;
+
+// Black: done
+	oneL -> Black;
+	BackFlip -> Black;
+
+// Blank: done
+	Befunge93 -> Blank;
 
 // Boat: done
 	C -> Boat;
 	brainfuck -> Boat;
 
+// BogusForth: done
+	Forth -> BogusForth;
+	FALSE -> BogusForth;
+
 // Boolfuck: done
 	brainfuck -> Boolfuck;
+
+// Brainbool: done
+	brainfuck -> Brainbool;
 
 // Braincopter: done
 	Brainloller -> Braincopter;
 
+// BrainCurses: done
+	brainfuck -> BrainCurses;
+
 // BrainDuino: done
 	brainfuck -> BrainDuino;
+
+// Brainfact: done
+	brainfuck -> Brainfact;
 
 // Brainfork: done
 	brainfuck -> Brainfork;
@@ -199,7 +284,7 @@ digraph esolangs {
 	brainfuck -> Ook;
 	brainfuck -> Blub;
 	brainfuck -> Matisse;
-	brainfuck -> Brainloller
+	brainfuck -> Brainloller;
 	brainfuck -> COW;
 	brainfuck -> Pi;
 
@@ -211,13 +296,87 @@ digraph esolangs {
 	Befunge93 -> SNUSP;
 	brainfuck -> Wierd;
 
+// Brainfuck++: done
+	Brainfuckplusplus [label="Brainfuck++"];
+	brainfuck -> Brainfuckplusplus;
+
+// Brainfuck--: done
+	Brainfuckminmin [label="Brainfuck--"];
+	brainfuck -> Brainfuckminmin;
+
+// BrainfuckXT: done
+	brainfuck -> BrainfuckXT;
+
+// Brainfunct: done
+	brainfuck -> Brainfunct;
+
+// BrainFunge2: done
+	brainfuck -> BrainFunge2;
+	Befunge93 -> BrainFunge2;
+
+// Brainhype: done
+	brainfuck -> Brainhype;
+
 // Brainloller: done
 	brainfuck -> Brainloller;
+
+// Brainlove: done
+	brainfuck -> Brainlove;
+
+// Brains: done
+	brainfuck -> Brains;
+	Brainfork -> Brains;
+	Toadskin -> Brains;
+	L00P -> Brains;
+	Weave -> Brains;
+
+// Brainscrambler: done
+	brainfuck -> Brainscrambler;
+
+// BrainSpace 1.0: done
+	BrainSpace [label="BrainSpace 1.0"];
+	Befunge93 -> BrainSpace;
+	PingPong -> BrainSpace;
+	brainfuck -> BrainSpace;
+
+// brainstack: done
+	brainfuck -> brainstack;
+
+// Brainstuck: done
+	brainfuck -> Brainstuck;
+
+// Braintrust: done
+	brainfuck -> Braintrust;
+
+// Braintwist: done
+	brainfuck -> Braintwist;
+
+// Braktif: done
+	ALPACA -> Braktif;
+	Smallfuck -> Braktif;
+	Archway -> Braktif;
+
+// BRB: done
+	brainfuck -> BRB;
+
+// Bub: done
+	brainfuck -> Bub;
 
 // Bullfrog: done
 	Forth -> Bullfrog;
 	Assembly -> Bullfrog;
 	Bullfrog -> SMITH;
+
+// Burlesque: done
+	Stlang -> Burlesque;
+
+// Burro: done
+	brainfuck -> Burro;
+
+
+
+
+
 
 // cbrain: done
 	pbrain -> cbrain;
@@ -244,17 +403,17 @@ digraph esolangs {
 	Fish [label="><>"];
 	Befunge93 -> Fish;
 
+// Flip: done
+	Wierd -> Flip;
+
 // Fm: done
 	brainfuck -> Fm;
 
 // Fortuna: done
 	brainfuck -> Fortuna;
 
-// Funge:
-	Befunge98 -> Funge;
-
 // Gemooy: done
-	2ill -> Gemooy;
+	twoill -> Gemooy;
 	Etcha -> Gemooy;
 	Gemooy -> GEMROOTD;
 	Gemooy -> Gemooyio;
@@ -367,7 +526,7 @@ digraph esolangs {
 
 // Suzy: done
 	Befunge93 -> Suzy;
-	3D -> Suzy;
+	threeD -> Suzy;
 
 // tbf: done
 	brainfuck -> tbf;
