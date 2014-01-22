@@ -1,6 +1,6 @@
-digraph esolangs {
+strict digraph esolangs {
 	// ALSO CHECK EVERYTHING WITH CAT'S EYE TECHNOLOGIES
-	
+
 	layout=neato;
 	overlap=false;
 	outputorder=edgesfirst;
