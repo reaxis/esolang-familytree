@@ -1,9 +1,13 @@
 digraph esolangs {
+	// ALSO CHECK EVERYTHING WITH CAT'S EYE TECHNOLOGIES
 	
-// DATA FROM ESOLANGS.ORG
-// ALSO CHECK EVERYTHING WITH CAT'S EYE TECHNOLOGIES
+	layout=neato;
+	overlap=false;
+	outputorder=edgesfirst;
+	newrank=1;
 
-// http://visjs.org/examples/graph/15_dot_language_playground.html
+	edge [color=gray, style=tapered, penwidth=7, arrowtail=none, dir=back, headclip=false];
+	node [style=filled, fillcolor=black, fontname=Arial, fontcolor=white];
 
 // (): done
 	parens [label="()"];
