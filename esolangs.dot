@@ -1,0 +1,396 @@
+digraph esolangs {
+	center = true;
+
+// DATA FROM ESOLANGS.ORG
+// ALSO CHECK EVERYTHING WITH CAT'S EYE TECHNOLOGIES
+
+// http://visjs.org/examples/graph/15_dot_language_playground.html
+
+// (): done
+	parens [label="()"];
+	Iota -> parens;
+
+// *brainfuck: done
+	pointedbrainfuck [label="*brainfuck"];
+	brainfuck -> pointedbrainfuck;
+
+// --C-=C-C--: done
+	minminCminequalsCminCminmin [label="--C-=C-C--"];
+	C -> minminCminequalsCminCminmin;
+
+// ///: done
+	slashslashslash [label="///"];
+	slashslashslash -> itflabtijtslwi;
+
+// 0x29C: done
+	zerox29A [label="0x29A"];
+	zerox29C [label="0x29C"];
+	zerox29A -> zerox29C;
+
+// 123: done
+	asdf -> 123;
+
+// 1337: done
+	LazyK -> 1337;
+
+// 1L: done
+	2L -> 1L;
+	1L -> 1L_a;
+	1L -> 1L_AOI;
+	1L -> Black;
+	BackFlip -> Black;
+	1L -> Wunnel;
+
+// 2050706: done
+	C -> 2050706;
+
+// 2-ill: done
+	2ill [label="2-ill"];
+	2L -> 2ill;
+
+// 2iota:
+	betaJulietandPortia -> 2iota;
+
+// 2L: done
+	PATH -> 2L;
+	brainfuck -> 2L;
+	2L -> 2ill;
+	2L -> 1L;
+
+// 3D: done
+	Befunge93 -> 3D;
+	3D -> Suzy;
+
+// 3switchBF: done
+	brainfuck -> 3switchBF;
+
+// :≠: done
+	Unassignable [label=":≠"];
+	ABCDXYZ -> Unassignable;
+	BackFlip -> Unassignable;
+
+// ~#: done
+	tildehash [label="~#"];
+	brainfuck -> tildehash;
+
+// Argh!: done
+	Argh [label="Argh!"];
+	Argh -> Aargh;
+
+// Aargh!: done
+	Aargh [label="Aargh!"];
+
+// ABCDXYZ: done
+	BackFlip -> ABCDXYZ;
+
+// ACIDIC: done
+	ACIDIC -> CyclicACIDIC;
+
+// Addleq: done
+	Subleq -> Addleq;
+
+// Agony: done
+	brainfuck -> Agony;
+
+// Aheui: done
+	Aheui [label="아희"];
+	Befunge93 -> Aheui;
+
+// ALAGUF: done
+	Funge -> ALAGUF;
+
+// ALPACA: done
+	RUBE -> REDGREEN -> ALPACA;
+
+// Ambi-F: done
+	AmbiF [label="/ˈæmbiːɛf/"];
+	brainfuck -> AmbiF;
+	Java2K -> AmbiF;
+
+// Amelia: done
+	Iris -> Amelia;
+
+// Arbol: done
+	Unlambda -> Arbol;
+	LazyL -> Arbol;
+	Iota -> Arbol;
+	Zot -> Arbol;
+	Joy -> Arbol;
+	Haskell -> Arbol;
+
+// Archway: done
+	Beturing -> Archway;
+	Archway -> Archway2;
+	brainfuck -> Archway;
+	2L -> Archway2;
+
+// Alarm Clock Radio: done
+	AlarmClockRadio [label="Alarm Clock Radio"];
+	brainfuck -> AlarmClockRadio;
+
+// Aura: done
+	brainfuck -> Aura;
+	Malbolge -> Aura;
+
+// axo: done
+	Befunge93 -> axo;
+
+
+
+
+// Befunge-93: done
+	Befunge93 [label="Befunge-93"];
+	Forth -> Befunge93;
+	AmigaVision -> Befunge93;
+	Befunge93 -> Wierd;
+	Befunge93 -> Befreak;
+	Befunge93 -> PATH;
+	brainfuck -> PATH;
+
+// Befunge-98:
+	Befunge98 [label="Befunge-98"];
+	Befunge93 -> Befunge98;
+
+// beta-Juliet and Portia:
+	betaJulietandPortia [label="beta-Juliet and Portia"];
+	betaJulietandPortia -> 2iota;
+
+// Beturing: done
+	Befunge93 -> Beturing;
+
+// Blub: done
+	brainfuck -> Blub;
+
+// Boat: done
+	C -> Boat;
+	brainfuck -> Boat;
+
+// Boolfuck: done
+	brainfuck -> Boolfuck;
+
+// Braincopter: done
+	Brainloller -> Braincopter;
+
+// BrainDuino: done
+	brainfuck -> BrainDuino;
+
+// Brainfork: done
+	brainfuck -> Brainfork;
+
+// brainfuck: done
+	FALSE -> brainfuck;
+
+	// interesting variants
+	brainfuck -> pbrain;
+	// brainfuck -> cbrain;
+	brainfuck -> lecRAM;
+	brainfuck -> RUM;
+	brainfuck -> Toadskin;
+	brainfuck -> Brainfork;
+	brainfuck -> Fm;
+	brainfuck -> Smallfuck;
+	brainfuck -> Spoon;
+	brainfuck -> BrainDuino;
+	brainfuck -> AlarmClockRadio;
+	brainfuck -> tbf;
+	brainfuck -> Grin;
+
+	// funny variants
+	brainfuck -> Ook;
+	brainfuck -> Blub;
+	brainfuck -> Matisse;
+	brainfuck -> Brainloller
+	brainfuck -> COW;
+	brainfuck -> Pi;
+
+	// inspired by, but with major differences
+	brainfuck -> Aura;
+	brainfuck -> PATH;
+	Befunge93 -> PATH;
+	brainfuck -> SNUSP;
+	Befunge93 -> SNUSP;
+	brainfuck -> Wierd;
+
+// Brainloller: done
+	brainfuck -> Brainloller;
+
+// Bullfrog: done
+	Forth -> Bullfrog;
+	Assembly -> Bullfrog;
+	Bullfrog -> SMITH;
+
+// cbrain: done
+	pbrain -> cbrain;
+	C -> cbrain;
+
+// COW: done
+	brainfuck -> COW;
+
+// Cyclic ACIDIC: done
+	CyclicACIDIC [label="Cyclic ACIDIC"];
+
+// DJN OISC: done
+	DJNOISC [label="DJN OISC"];
+
+// Etcha: done
+	BitChanger -> Etcha;
+
+// FALSE: done
+	Forth -> FALSE;
+	FALSE -> brainfuck;
+	FALSE -> Befunge93;
+
+// Fish: done
+	Fish [label="><>"];
+	Befunge93 -> Fish;
+
+// Fm: done
+	brainfuck -> Fm;
+
+// Fortuna: done
+	brainfuck -> Fortuna;
+
+// Funge:
+	Befunge98 -> Funge;
+
+// Gemooy: done
+	2ill -> Gemooy;
+	Etcha -> Gemooy;
+	Gemooy -> GEMROOTD;
+	Gemooy -> Gemooyio;
+
+// GEMROOTD: done
+	Gemooy -> GEMROOTD;
+
+// Grin: done
+	brainfuck -> Grin;
+
+// Iota: done
+	Iota -> Jot;
+
+// itflabtijtslwi: done
+	slashslashslash -> itflabtijtslwi;
+
+// Jot: done
+	Jot -> Iota;
+	Jot -> Zot;
+
+// Lazy K: done
+	LazyK [label="Lazy K"];
+	Unlambda -> LazyK;
+
+// lecRam: done
+	brainfuck -> lecRam;
+
+// LNUSP: done
+	PATH -> LNUSP;
+	SNUSP -> LNUSP;
+
+// Matisse: done
+	brainfuck -> Matisse;
+
+// Nhohnhehr: done
+	Befunge93 -> Nhohnhehr;
+
+// noit o' mnain gelb: done
+	noitomnaingelb [label="noit o' mnain gelb"];
+	noitomnainworb -> noitomnaingelb;
+
+// noit o' mnain worb: done
+	noitomnainworb [label="noit o' mnain worb"];
+
+// Ook!: done
+	Ook [label="Ook!"];
+	brainfuck -> Ook;
+
+// Orthogonal: done
+	Orthagonal -> Orthogonal;
+
+// P1eq: done
+	Subleq -> P1eq;
+
+// PATH: done
+	brainfuck -> PATH;
+	Befunge93 -> PATH;
+	PATH -> SNUSP;
+	PATH -> LNUSP;
+
+// pbrain: done
+	brainfuck -> pbrain;
+
+// Pi: done
+	brainfuck -> Pi;
+
+// Puzzlang: done
+	brainfuck -> Puzzlang;
+
+// RUM: done
+	brainfuck -> RUM;
+
+// Smallfuck: done
+	brainfuck -> Smallfuck;
+
+// SMATINY: done
+	SMETANA -> SMATINY;
+
+// SMETANA: done
+	SMETANA -> SMITH;
+	SMETANA -> SMATINY;
+
+// SMITH: done
+	SMETANA -> SMITH;
+	Bullfrog -> SMITH;
+	SMITH -> SMITHsharp;
+
+// SMITH#: done
+	SMITHsharp [label="SMITH#"];
+	SMITH -> SMITHsharp;
+
+// SNUSP: done
+	PATH -> SNUSP;
+	brainfuck -> SNUSP;
+
+// Spoon: done
+	brainfuck -> Spoon;
+
+// StateFlip: done
+	BackFlip -> StateFlip;
+
+// Subleq: done
+	Subleq -> Addleq;
+	Subleq -> P1eq;
+	Subleq -> DJNOISC;
+	Subleq -> Subleqplus;
+
+// Subleq+: done
+	Subleqplus [label="Subleq+"];
+
+// Suzy: done
+	Befunge93 -> Suzy;
+	3D -> Suzy;
+
+// tbf: done
+	brainfuck -> tbf;
+
+// Toadskin: done
+	brainfuck -> Toadskin;
+	Forth -> Toadskin;
+
+// Versert: done
+	Befunge93 -> Versert;
+
+// Wierd: done
+	brainfuck -> Wierd;
+	Befunge93 -> Wierd;
+
+// Zame: done
+	Zame -> Etcha;
+
+// Zot: done
+	Jot -> Zot;
+
+
+
+// Malbolge:
+	Malbolge;
+}
